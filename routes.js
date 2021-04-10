@@ -9,5 +9,5 @@ route.get('/', homeController.index);
 
 //rotas de login
 route.get('/login/',loginController.index);
-route.post('/login/register',loginController.register);
+route.post('/login/cadastro',loginController.cadastro);
 module.exports = route;

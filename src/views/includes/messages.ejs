@@ -1,0 +1,13 @@
+<% if (erros.lenght > 0) { %>
+    <div class="rol">
+        <div class="col">
+            <div class="alert alert-danger">
+                <% erros.forEach(erro=>{ %>
+
+                    <%= erro%> <br>
+
+                        <% }); %>
+            </div>
+        </div>
+    </div>
+    <% } %>

@@ -4,6 +4,7 @@
   "description": "",
   "main": "routes.js",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^4.4.1",
     "csurf": "^1.11.0",
